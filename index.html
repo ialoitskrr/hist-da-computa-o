@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="estilo.css">
     <title>História da Computação</title>
 </head>
 <body>
@@ -30,13 +31,13 @@
     </header>
     <main>
         <div class="tit-box">
-            <h1>Introdução a Computação</h1>
+            <h1 class="tit-ban">Introdução a Computação</h1>
         </div>
         <article>
-            <h1>História da Computação</h1>
+            <h1 class="tit-art">História da Computação</h1>
             <section id="sumario">
                 <h2>Sumário</h2>
-                <ol>
+                <ol class="suma-ol">
                     <li>
                         <a href="#capum">Capítulo 1</a>
                         <p>De onde surgiu a necessidade da informática?</p>
@@ -55,26 +56,18 @@
                     </li>
                     <li>
                         <a href="#capcinco">Capítulo 5</a>
-                        <details>
-                            <summary>História dos computadores</summary>
-                            <ol>
-                                <li>Contextualização Histórica</li>
-                                <li>os primeiros computadores</li>
-                            </ol>
-                        </details>
+                        <p>História dos computadores</p>
                     </li>
                     <li>
                         <a href="#capseis">Capítulo 6</a>
-                        <details>
-                            <summary>Computação moderna</summary>
-                            <ol>
-                                <li>Primeira geração</li>
-                                <li>Segunda geração</li>
-                                <li>Terceira geração</li>
-                                <li>Quarta geração</li>
-                                <li>Quinta geração</li>
-                            </ol>
-                        </details>
+                        <p>Computação moderna</p>
+                        <ol>
+                            <li>Primeira geração</li>
+                            <li>Segunda geração</li>
+                            <li>Terceira geração</li>
+                            <li>Quarta geração</li>
+                            <li>Quinta geração</li>
+                        </ol>
                     </li>
                 </ol>
             </section>
@@ -136,7 +129,7 @@
             </section>
             <section id="capquatro">
                 <h2 class="artcl-tit">Máquinas Programáveis</h2>
-                <section class="captres-art esq">
+                <section>
                     <h3 class="artcl-subtit">Máquina de Jacquard</h3>
                     <p class="artcl-p">Durante a revolução industrial na França, em 1801, Joseph Marie Jacquard inventou um tear mecânico que obedecia cartões metálicos perfurados, os quais poderiam ser "progrmados". O tear controlado por estes cartões poderia produzir tecidos com desenhos bonitos e intricados.</p>
                         <figure class="artcl-div-img">
@@ -154,7 +147,7 @@
                 </section>
                 <section>
                     <h3 class="artcl-subtit">Máquina Analítica</h3>
-                    <p class="artcl-p">Em 1837, Charles Babbage, lançou sua mais nova criação, o Engenho Analítico(ou Máquina Analítica), que aproveitava os conceitos do tear programável, também utilizando os cartões metálicos, e a precisão de sua criação chegava a até 50 casas decimais.</p>
+                    <p class="artcl-p">Em 1837, Charles Babbage, lançou sua mais nova criação, o Engenho Analítico (ou Máquina Analítica), que aproveitava os conceitos do tear programável, também utilizando os cartões metálicos, e a precisão de sua criação chegava a até 50 casas decimais.</p>
                     <figure class="artcl-div-img">
                         <img class="artcl-img" src="" alt="">
                         <figcaption>Máquina Analítica</figcaption>
@@ -167,7 +160,7 @@
                         <img src="" alt="">
                         <figcaption>Lady Lovelace</figcaption>
                     </figure>
-                    <h3 class="aside-tit">Primeira Programadora</h3>
+                    <h3 class="aside-tit">Lógica booleana</h3>
                     <p class="aside-p">George Boole, matemático inglês desenvolveu um sistema lógico que reduzia a representação de valores através de 0 ou 1. <br>Exemplo:</p>
                     <ul>
                         <li>00 - desligado</li>
@@ -186,8 +179,139 @@
                     </figure>
                 </section>
             </section>
+            <section id="capinco">
+                <h2 class="artcl-tit">História dos computadores</h2>
+                <section class="captres-art dir">
+                    <h3 class="artcl-subtit">O primeiro computador</h3>
+                    <p class="artcl-p">O primeiro computador foi construído  pelo alemão Konrad Zuze em 1936, o computador eletromecânico se chamava Z-1 e usava relés. Konrade tentou vender sua invenção ao governo para ser usado pelos militares, mas os nazistas subestimaram e não se interessaram pela criação de Zuze.</p>
+                    <figure class="artcl-div-img">
+                        <img class="artcl-img" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+                <section class="captres-art esq">
+                    <h3 class="artcl-subtit">Mark I</h3>
+                    <p class="artcl-p">Mark I foi desenvolvido nos Estados Unidos pela Marinha em conjunto com a Universidade de Harvard e a IBM. "O gigante eletromagnético" recebia esse nome porque ocupava 120 metros cúbicos. Além do seu tamanho ele possuía milhares de relés e fazia um barulho imenso. O gigante levava 3 segundos para efetuar uma multiplicação de 10 dígitos.</p>
+                    <figure class="artcl-div-img">
+                        <img class="artcl-img" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+                <section class="captres-art dir">
+                    <h3 class="artcl-subtit">Colossus</h3>
+                    <p class="artcl-p">Colossus foi o projeto prático da teoria da "Máquina de Turing". Alan Turing estudava problemas que poderiam ser resolvidos pelos computadores, e então criou o modelo da máquina de turing.</p>
+                    <p class="artcl-p">Precisamente a Máquina de Turing é um modelo abstrato de um computador, restringido só nos aspectos lógicos do funcionamento como memórias, estados e transições, mas não a sua aplicação física. O modelo de Turing pode-se desenvolver qualquer computador.</p>
+                    <figure class="artcl-div-img">
+                        <img class="artcl-img" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section id="capseis">
+                <h2 class="artcl-tit">Computação Moderna</h2>
+                <p>A computação moderna está marcada pelo uso de computadores digitais, que descartam o uso de componentes analógicos como base de seu funcionamneto. A computação moderna pode ser fragmentada em várias gerações.</p>
+                <section>
+                    <h3 class="artcl-subtit">Primeira Geração (1946 - 1959)</h3>
+                    <ul class="ger-ul">
+                        <li class="ger-li">Uso de válvulas eletônicas, tendo um tamanmho enorme e ocupando uma grande quantidade de espaço;</li>
+                        <li class="ger-li">Possuía quilômetros de fios, e atingia temperaturas muito elevadas causando frequentemente problemas e mal funcionamento;</li>
+                        <li class="ger-li">Grande consumo de energia;</li>
+                        <li class="ger-li">Toda programação era escrita na linguagem máquina, e precisava ser reprogramamdo a cada tarefa;</li>
+                        <li class="ger-li">Uso restrito;</li>
+                    </ul>
+                    <figure class="ger-div-img">
+                        <img src="" alt="">
+                        <figcaption>ENIAC</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h3 class="artcl-subtit">Segunda Geração (1959 - 1964)</h3>
+                    <ul class="ger-ul">
+                        <li class="ger-li">As válvulas eletrônicas foram substituídas por transistores, dimunuindo consideravelmente o tamanho, mas ainda sim ocupava bastante espaço;</li>
+                        <li class="ger-li">Foi implementada a tecnologia de circuitos impressos, assim os fios e cabos elétricos não ficassem espalhados por todo lugar;</li>
+                        <li class="ger-li">Começo do uso comercial, porém o preço ainda era muito elevado;</li>
+                        <li class="ger-li">Poder de processamento ainda muito pequeno;</li>
+                        <li class="ger-li">Diminuição no consumo de energia, porém ainda era bem alto;</li>
+                    </ul>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>IBM 7030: Desenvolvido pela IBM, ocupava o tamanho de uma sala comum, custava em torno de 13 milhões de dólares, atingiu um novo patamar de velociddade para a época permitindo até um milhão de operações por segundo<./figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h3 class="artcl-subtit">Terceira Geração(1964 - 1970)</h3>
+                    <ul class="ger-ul">
+                        <li class="ger-li">Surgimento e implementação dos circuitos integrados, que são circuito de milhares de transistores integrados em um chip de silício de alguns milímetros quadrados;</li>
+                        <li class="ger-li">Diminuição do custo;</li>
+                        <li class="ger-li">Diminuição do tamanho;</li>
+                        <li class="ger-li">Diminuição do consumo de energia;</li>
+                        <li class="ger-li">Aumento na capacidade de processamento e no número de funcionalidades;</li>
+                    </ul>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>IBM 360/91: trabalhava com dispositivos de entrada e saída(ex. discos, fitas de armazenament...), possiblidade de imprimir os resultados em papel.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h3 class="artcl-subtit">Quarta Geração (1970 - dias atuais)</h3>
+                    <ul class="ger-ul">
+                        <li class="ger-li">Microprocessadores</li>
+                        <li class="ger-li">Diminuição drástica no tamanho e no preço das máquinas</li>
+                        <li class="ger-li">Aumento exponencial na capacidade de processamento e memória</li>
+                        <li class="ger-li">Surgimento dos computadores para uso pessoal</li>
+                        <li class="ger-li">Computação de bolso e dispositivos móveis</li>
+                        <li class="ger-li">Softwares e gráficos integrados</li>
+                        <li class="ger-li">Processadores de texto</li>
+                        <li class="ger-li">Planilhas eletrônicas</li>
+                        <li class="ger-li">Gerenciadores de banco de dados</li>
+                    </ul>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>Apple x Microsoft: A disputa dessas duas grandes empresas pela venda de computadores para uso pessoal.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h3 class="artcl-subtit">Quinta Geração...</h3>
+                    <ul class="ger-ul">
+                        <li class="ger-li">Supercomputadores</li>
+                        <li class="ger-li">Automação de escritórios</li>
+                        <li class="ger-li">Automação comercial e industrial</li>
+                        <li class="ger-li">Robótica</li>
+                        <li class="ger-li">Imagem virtual</li>
+                        <li class="ger-li">Multimídia</li>
+                        <li class="ger-li">Computação em nuvem</li>
+                    </ul>
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </section>
+            </section>
         </article>
     </main>
+    <footer>
+        <section>
+            <div class="foot-div">
+                <h6 class="foot-tit">Instituição</h6>
+                <p class="foot-p"></p>
+            </div>
+            <div class="foot-div">
+                <h6 class="foot-tit">Curso</h6>
+                <p class="foot-p"></p>
+            </div>
+            <div class="foot-div">
+                <h6 class="foot-tit">Professor</h6>
+                <p class="foot-p"></p>
+            </div>
+            <div class="foot-div">
+                <h6 class="foot-tit">Aluno</h6>
+                <p class="foot-p"></p>
+            </div>
+        </section>
+        <section>
+            <p>Todo o conteúdo deste site foi feico com base neste slide desenvolvido pelo prof.</p>
+            <p>Site desenvolvido por Italo Monteiro Silva, sem fins comerciasi, visando apenas conclusão de atividade.</p>
+        </section>
+    </footer>
     <script src="menu-mobile.js"></script>
 </body>
 </html>

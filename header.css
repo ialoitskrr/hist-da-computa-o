@@ -4,13 +4,12 @@
 :root {
     --cor0: #000000;
     --cor1: #ffffff;
+    --cor2: #a7a7a7;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
     font-family: 'Barlow Condensed';
     font-style: italic;
     scroll-behavior: smooth;
@@ -52,26 +51,22 @@
         display: flex;
         width: 100%;
         gap: 2rem;
+        list-style: none;
     }
 
     .menu-list li a {
         color: var(--cor1);
         font-size: 1.2rem;
-    }
+        background-color: #5e5e5e79;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border-radius: 10px;
+        transition: 0.3s;
+        text-decoration: none;
+}
 
-    .menu-list li a:after{
-        content: "";
-        height: 2px;
-        width: 0%;
-        background-color: var(--cor1);
-        display: block;
-        margin: auto;
-        transition: 0.5s;
-    }
-
-    .menu-list li a:hover::after{
-        width: 100%;
-    }
+.menu-list li a:hover{
+    background-color: #5e5e5e39;
+}
 
 }
 
@@ -143,7 +138,7 @@
     }
 
     .menu-list li a:hover{
-        color: #7a7a7a;
+        color: var(--cor2);
     }
 
     .menu-icon{
