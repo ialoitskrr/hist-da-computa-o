@@ -135,6 +135,7 @@
         font-size: 1.5rem;
         color: var(--cor1);
         transition: 0.5s;
+        text-decoration: none;
     }
 
     .menu-list li a:hover{
