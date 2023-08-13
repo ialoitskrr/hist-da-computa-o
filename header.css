@@ -70,13 +70,6 @@
 
 }
 
-/* TABLET */
-/* TABLET */
-/* TABLET */
-/* TABLET */
-/* TABLET */
-
-
 /* MOBILE */
 /* MOBILE */
 /* MOBILE */
@@ -119,6 +112,7 @@
         padding-top: 84px;
         justify-content: space-evenly;
         transition: all 0.5s;
+        list-style: none;
     }
 
     .menu-list.ativo {
