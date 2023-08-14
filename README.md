@@ -1,1 +1,1 @@
-# hist-da-computa-o
+# históriia da computação, feito somente como atividade
