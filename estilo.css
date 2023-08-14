@@ -214,6 +214,10 @@
         max-width: 400px;
     }
 
+    figcaption{
+        padding: 0.3rem;
+    }
+
 }
 
 /* MOBILE */
@@ -402,4 +406,10 @@
     figure img{
         width: 80%;
     }
+
+    figcaption{
+        padding: 0.3rem;
+    }
+
+
 }
